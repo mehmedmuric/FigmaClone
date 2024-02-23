@@ -1,10 +1,7 @@
-import { Room } from "./Room";
-import { CollaborativeApp } from "./CollaborativeApp";
 
 export default function Page() {
   return (
-    <Room>
-      <CollaborativeApp />
-    </Room>
+    <h2 className="text-5xl">Figma Clone</h2>
+    
   );
 }
